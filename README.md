@@ -12,7 +12,7 @@ There are three ways to update the lumerical structure
    con:the "myscript" need to change quote mark to a reading-unfriendly way
    example code:
    https://github.com/QingjunGoforit/lumerical/blob/aae78a64d8f27551279104ff2536f480d6f6f42c/CWM%20tolerance%20analysis.lsf
-4. call the existing structure use setnamed("structure_name", "property", value);
+3. call the existing structure use setnamed("structure_name", "property", value);
    pro and con:between method 1 and 2; reading friendly, need to select all the structures and update them one by one
    example code:
    https://github.com/QingjunGoforit/lumerical/blob/aae78a64d8f27551279104ff2536f480d6f6f42c/CWM%20tolerance%20analysis.lsf
