@@ -1,0 +1,40 @@
+```python
+  n Python, len(), size, and shape are used to get information about the dimensions of data structures, but they are used in different contexts and with different types of objects.
+  1. len()
+  Usage: len() is a built-in function that returns the number of items in an object.
+  Applicable To: Lists, strings, tuples, dictionaries, and other iterable objects.
+  Example:
+  Python
+  my_list = [1, 2, 3, 4]
+  print(len(my_list))  # Output: 4
+  my_string = "hello"
+  print(len(my_string))  # Output: 5
+
+  2. size
+  Usage: size is an attribute of NumPy arrays that returns the total number of elements in the array.
+  Applicable To: NumPy arrays.
+  Example:
+  Python
+  import numpy as np
+  my_array = np.array([[1, 2, 3], [4, 5, 6]])
+  print(my_array.size)  # Output: 6
+
+  3. shape
+  Usage: shape is an attribute of NumPy arrays and Pandas DataFrames that returns a tuple representing the dimensions of the array or DataFrame.
+  Applicable To: NumPy arrays and Pandas DataFrames.
+  Example:
+  Python
+  import numpy as np
+  import pandas as pd
+  # NumPy array example
+  my_array = np.array([[1, 2, 3], [4, 5, 6]])
+  print(my_array.shape)  # Output: (2, 3)
+  # Pandas DataFrame example
+  df = pd.DataFrame({'A': [1, 2], 'B': [3, 4]})
+  print(df.shape)  # Output: (2, 2)
+  
+Summary
+  len(): Use for general Python iterables to get the number of elements.
+  size: Use for NumPy arrays to get the total number of elements.
+  shape: Use for NumPy arrays and Pandas DataFrames to get the dimensions (rows, columns).
+```
